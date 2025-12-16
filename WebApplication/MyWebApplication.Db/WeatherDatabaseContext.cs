@@ -8,7 +8,7 @@ public class WeatherDatabaseContext : DbContext
     {
     }
 
-    protected WeatherDatabaseContext()
+    public WeatherDatabaseContext()
     {
     }
 
