@@ -18,6 +18,6 @@ public class WeatherDatabaseContext : DbContext
     {
         base.OnConfiguring(optionsBuilder);
 
-        optionsBuilder.UseSqlServer("Server=tcp:sql-server-plans.database.windows.net,1433;Initial Catalog=sql-database-plans;Persist Security Info=False;User ID=plans;Password=1DHzdscie2ruNWnsQEKm;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+        optionsBuilder.UseSqlServer("Server=tcp:sql-server-kollnbergert22094.database.windows.net,1433;Initial Catalog=sql-database-kollnbergert22094;Persist Security Info=False;User ID=kollnbergt22094;Password=htlgkr1#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
     }
 }
